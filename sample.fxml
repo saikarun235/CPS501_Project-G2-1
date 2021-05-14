@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField editable="false" layoutX="53.0" layoutY="74.0" fx:id="one" onMouseClicked="#oneClicked" prefHeight="100.0" prefWidth="100.0" style="-fx-border-color: black;" >
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="153.0" fx:id="two" onMouseClicked="#twoClicked" layoutY="74.0" prefHeight="100.0" prefWidth="100.0" style="-fx-border-color: black;" >
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="253.0" fx:id="three" onMouseClicked="#threeClicked" layoutY="74.0" prefHeight="100.0" prefWidth="100.0" style="-fx-border-color: black;" >
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="53.0"  fx:id="four" onMouseClicked="#fourClicked" layoutY="174.0" prefHeight="100.0" prefWidth="100.0" style="-fx-border-color: black;" >
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="153.0" fx:id="five" onMouseClicked="#fiveClicked" layoutY="174.0" prefHeight="100.0" prefWidth="100.0" style="-fx-border-color: black;" >
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="253.0" fx:id="six" onMouseClicked="#sixClicked" layoutY="174.0" prefHeight="100.0" prefWidth="100.0" style="-fx-border-color: black;" >
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="53.0"  fx:id="seven" onMouseClicked="#sevenClicked" layoutY="274.0" prefHeight="100.0" prefWidth="100.0" style="-fx-border-color: black;" >
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="153.0" fx:id="eight" onMouseClicked="#eightClicked" layoutY="274.0" prefHeight="100.0" prefWidth="100.0" style="-fx-border-color: black;" >
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="253.0" fx:id="nine"  onMouseClicked="#nineClicked" layoutY="274.0" prefHeight="100.0" prefWidth="100.0" style="-fx-border-color: black;" >
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+
+      <TextField fx:id="x" userData="#loaddata" editable="false" layoutX="437" layoutY="74" />
+      <TextField fx:id="o" text="O wins : 0" editable="false" layoutX="437" layoutY="98.0" />
+      <TextField fx:id="d" text="Draws  : 0" layoutX="437" layoutY="125.0" />
+
+      <Button layoutX="405.0" layoutY="344.0" onMouseClicked="#reset" mnemonicParsing="false" text="Reset" />
+      <Button layoutX="535.0" layoutY="344.0" onMouseClicked="#quit" mnemonicParsing="false" prefHeight="27.0" prefWidth="52.0" text="Quit" />
+
+   </children>
+</AnchorPane>
